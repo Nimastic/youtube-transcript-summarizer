@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>YouTube Summarizer</title>
+    <style>
+      body {
+        font-family: sans-serif;
+        margin: 15px;
+        width: 300px;
+      }
+      #summary {
+        margin-top: 10px;
+        white-space: pre-wrap;
+      }
+      button {
+        cursor: pointer;
+        padding: 6px 12px;
+        border: none;
+        background: #007bff;
+        color: white;
+        border-radius: 4px;
+      }
+      button:hover {
+        background: #0056b3;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 style="font-size:16px;">YouTube Summarizer</h1>
+    <button id="summarizeBtn">Get Summary</button>
+    <div id="summary"></div>
+
+    <script src="popup.js"></script>
+  </body>
+</html>

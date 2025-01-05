@@ -1,0 +1,21 @@
+{
+    "name": "YouTube Transcript Summarizer",
+    "version": "1.0.0",
+    "manifest_version": 3,
+    "description": "Retrieve and summarize YouTube transcripts using OpenAI.",
+    "permissions": [
+      "activeTab",
+      "scripting",
+      "storage"
+    ],
+    "host_permissions": [
+      "https://www.youtube.com/*"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html"
+    }
+  }
+  
